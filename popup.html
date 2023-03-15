@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+<title>
+    index
+</title>
+
+<body>
+    <h1>ポップアップ表示</h1>
+
+    <label class="open" for="pop-up">ゲーム説明</label>
+    <input type="checkbox" id="pop-up">
+    <div class="overlay">
+        <div class="window">
+            <label class="close" for="pop-up">x</label>
+            <h2>ゲーム説明</h2>
+            <ul>
+                <li>このゲームについて<br>
+                    このゲームはバトエン(バトルえんぴつ)を使ったRPGゲームです。<br>
+                    バトエンとはサイコロのついたえんぴつで
+                    サイコロの出目により勝敗を決めていきます。<br>
+                </li>
+                <li>フィールド上での操作方法<br>
+                    キー「<span style="color: red">Ｗ、Ｚ</span>」で上下、キー「<span style="color: red;">Ａ、Ｓ</span>」で左右に動きます。
+                </li>
+                <li>バトルについて<br>
+                    バトルでは敵に勝利すると、手持ちのバトエンは全回復され<br>
+                    経験値・ゴールドが獲得できます。<br>
+                    バトルによって集められたゴールドはショップにて使用できます。<br>
+                    敗北した場合は最後に訪れた町に移動します。
+                </li>
+                <li>バトエンについて<br>
+                    バトエンには「グー」「チョキ」「パー」の３種類の出目があり、<br>
+                    勝敗はじゃんけんのルールに従います。<br>
+                    じゃんけんに勝利した場合のみ、その出目の技が使用されます。<br>
+                    あいこの場合は両者の出目の技が使用されます。<br>
+                    バトエンは手持ちに３体まで所持することが出来ます。
+                </li>
+                <li>ショップについて<br>
+                    ショップではバトエンの売買ができます。
+                    購入したバトエンはBOXに送られます。
+                </li>
+                <li>セーブについて<br>
+                    このゲームはオートセーブになっています。<br>
+                    登録されたIDでログインすると最後に移動したフィールドの位置もしくは町に移動されます。
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="gold">
+        <h3><span>＄</span>100G</h3>
+    </div>
+
+    <div class="btn">
+        <p>押すなよ</p>
+    </div>
+    <label>
+        <div>名前：</div>
+        <input type="name" name="name">
+    </label>
+    <br>
+
+    <label for="name">名前を入力</label>
+    <input type="text" id="name">
+    <br>
+
+    <label for="example1">1つ目の項目名</label>
+    <label for="example1">2つ目の項目名</label>
+    <input type="checkbox" id="example1">
+    <div>
+        <label for="example1">A</label>
+        <input type="checkbox" id="example1" name="question">
+    </div>
+    <div>
+        <label for="example2">B</label>
+        <input type="checkbox" id="example2" name="question">
+    </div>
+    <div>
+        <label for="example3">C</label>
+        <input type="checkbox" id="example3" name="question">
+    </div>
+    <label class="label-btn" for="like">いいね！</label>
+    <input type="checkbox" id="like">
+    <br><br><br>
+    <label for="mail">メールアドレス入力</label>
+    <hr>
+    <a href="item.html">戻る</a>
+</body>
+
+</html>
